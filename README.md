@@ -316,12 +316,6 @@ pytest tests/test_pipeline.py -v
 
 ---
 
-## 📄 License
-
-This project is for educational and humanitarian purposes.
-
----
-
 <div align="center">
     <strong>Built with ❤️ for Bihar Disaster Management</strong>
 </div>

@@ -127,6 +127,3 @@ During Active Events:
 - **Unexpected predictions**: Look at the input weather data — garbage in, garbage out. Cross-check with IMD's latest bulletin.
 - **Model retraining**: After each monsoon season, feed the actual distribution data back into the system and retrain. The model gets better with more real-world data.
 
----
-
-*This playbook was prepared as part of the AI-Powered Disaster Resource Allocation Forecasting System project for Bihar Disaster Management operations.*

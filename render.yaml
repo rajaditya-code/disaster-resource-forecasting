@@ -1,0 +1,13 @@
+# Render deployment configuration for FastAPI backend
+# See: https://render.com/docs/deploy-fastapi
+
+services:
+  - type: web
+    name: disaster-forecast-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python utils/generate_data.py && python train.py
+    startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

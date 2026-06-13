@@ -1,0 +1,27 @@
+{
+  "food_kits": {
+    "mae": 112.6205,
+    "rmse": 138.8886,
+    "mape": 113.4816
+  },
+  "medical_kits": {
+    "mae": 44.3969,
+    "rmse": 54.3857,
+    "mape": 105.8742
+  },
+  "ors_packets": {
+    "mae": 233.5437,
+    "rmse": 288.2787,
+    "mape": 114.2197
+  },
+  "drinking_water_litres": {
+    "mae": 394.8841,
+    "rmse": 486.9666,
+    "mape": 126.5967
+  },
+  "tarpaulins": {
+    "mae": 30.286,
+    "rmse": 37.2878,
+    "mape": 96.4507
+  }
+}

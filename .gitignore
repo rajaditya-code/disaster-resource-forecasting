@@ -37,7 +37,5 @@ share/python-wheels/
 .vscode/
 
 # Project Specific
-# Note: We keep the model artifacts and sample data out of git to avoid large file limits
-# If you WANT to upload the models, you can remove 'model_artifacts/' from this list
 logs/
 data/processed/
